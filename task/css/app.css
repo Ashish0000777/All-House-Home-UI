@@ -1,0 +1,233 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: "Jost", sans-serif;
+}
+
+.brand-logo{
+    width: 6.82rem;
+    height: 4.639rem;
+}
+
+.nav{
+    height: 37.11px;
+    background-color: #8BC349;
+    display: flex;
+}
+.main-nav{
+
+    height: 9.28rem;
+}
+
+.prizing-strip{
+    background-color: #006837;
+    height: 37.11px;
+}
+.carousel-card{
+    height: 43.75rem;
+}
+
+.slider-item-1{
+    background-image: url("../assets/Slider\ Image.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 33.75rem !important;
+}
+.slider-item-2{
+    background-image: url("../assets/Slider\ Image\ \(1\).png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 33.75rem !important;
+}
+.slider-item-3{
+    background-image: url("../assets/Slider\ Image\ \(2\).png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 33.75rem !important;
+}
+.slider-item-4{
+    background-image: url("../assets/Slider\ Image\ \(3\).png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 33.75rem !important;
+}
+
+.custom-btn{
+    background-color: #8BC349;
+    padding: 8px 17px;
+    border: none;
+}
+
+
+/* carouselllllll slider */
+.item-1{
+    background-image: url("../assets/tropical-plants-drums-grey-wall\ 1.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 21rem !important;
+    width: 21rem !important;
+
+}
+.item-2{
+    background-image: url("../assets/high-angle-dining-table-with-cutlery\ 1.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 21rem !important;
+    width: 21rem !important;
+
+}
+.item-3{
+    background-image: url("../assets/blue-cushions-one-yellow-cushion\ 1.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 21rem !important;
+    width: 21rem !important;
+
+}
+.item-4{
+    background-image: url("../assets/coockwere.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 21rem !important;
+    width: 21rem !important;
+
+}
+.item-5{
+    background-image: url("../assets/coockwere.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 21rem !important;
+    width: 21rem !important;
+
+}
+
+.shopbtn{
+    background-color: transparent;
+    border: none;
+   
+}
+
+.explore-section {
+    height: 65.125rem;
+    background-color: #D4DFD4;
+}
+.article-box img{
+    width: 18rem;
+    height: 20rem;
+}
+.gift-card{
+    background-color: #006837;
+    color: white;
+    border-radius: 3px;
+    padding: 5px 10px;
+}
+.gift-img{
+    width: 37rem;
+    height: 25rem;
+}
+.essentials{
+    background-image: url("../assets/a4ae9b60e801f2a57be24e87365e369f.w7000\ 1.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 28rem;
+}
+.gradient{
+    background: linear-gradient(270deg, #006837 0%, rgba(0, 104, 55, 0) 100%);;
+}
+
+.blog-item-1{
+    background-image: url("../assets/Rectangle\ 100.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 19rem !important;
+    width: 23rem !important;
+    border-radius: 5px;
+}
+.blog-item-2{
+    background-image: url("../assets/Rectangle\ 100\ \(1\).png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 19rem !important;
+    width: 23rem !important;
+    border-radius: 5px;
+}
+.blog-item-3{
+    background-image: url("../assets/Rectangle\ 100\ \(2\).png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 19rem !important;
+    width: 23rem !important;
+    border-radius: 5px;
+}
+
+.banner-section{
+    background-color: rgba(212, 223, 212, 1);
+    height: 26rem;
+    background-image: url("../assets/imgonline-com-ua-twotoone-hQXC02vfgptn.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.img-gallary {
+    width: 300px;
+}
+
+
+@media (min-width: 400px) and (max-width: 950px) {
+.main-nav{
+    height: 13rem !important;
+}
+    .prizing-strip{
+        height: 47.11px;
+    }
+
+    .heading{
+        font-size: 33px !important;
+    }
+    .explore-section{
+        height: 198.125rem !important;
+    }
+    .gift-img{
+        width: 27rem;
+        height: 23rem;
+    }
+    .img-gallary {
+        width: 200px;
+    }
+    .banner-section{
+        height: 30rem;
+    }
+    .title{
+        font-size: 30px;
+    }
+  }
+
+
+
+  /* @media (min-width: 481px) and (max-width: 932px) {
+    .main-nav{
+        height: 14rem !important;
+    }
+    /* CSS */
+    
+  } */
+  
+  /* 
+    ##Device = Most of the Smartphones Mobiles (Portrait)
+    ##Screen = B/w 320px to 479px
+  */
